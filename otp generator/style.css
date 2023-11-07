@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background: #d7ccff;
+}
+.box{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+
+}
+.box p{
+    font-size: 2em;
+    font-weight: 700;
+    color: #555;
+}
+.box p span{
+    color: #8a2be2;
+}
+.box button{
+    background: #8a2be2;
+    color: #fff;
+    font-size: 1.4em;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 10px;
+    padding: 10px 25px;
+    outline: none;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+}
