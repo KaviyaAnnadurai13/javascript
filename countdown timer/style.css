@@ -7,16 +7,16 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    width: 100vh;
-    height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('new.jpg');
-  color: white;
-  background-size:cover;
+ width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('new.jpg');
+  background-size: cover;
   background-position: center;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .counter{
     display: flex;
